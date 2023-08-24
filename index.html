@@ -24,7 +24,24 @@
 <body>
 <div id="body-wrap">
   <!-- 顶部图 -->
-  <nav class="not_index_bg" id="nav" style="background-image:url(static/img/codeworld.jpeg)"></nav>
+  <nav class="not_index_bg" id="nav" style="background-image:url(static/img/codeworld.jpeg)">
+    <div id="page_site-info">
+      <div id="site-title">
+        <span class="blogtitle"></span>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script>
+          var typed = new Typed(".blogtitle", {
+            strings: ['代码世界！', 'Code World！'],
+            startDelay: 300,
+            typeSpeed: 100,
+            loop: true,
+            backSpeed: 50,
+            showCursor: true
+          });
+        </script>
+      </div>
+    </div>
+  </nav>
   <!-- 左边主页 -->
   <main id="content-outer">
     <div class="layout_page" id="content-inner">
